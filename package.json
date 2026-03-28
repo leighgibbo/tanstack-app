@@ -8,7 +8,8 @@
     "preview": "vite preview",
     "test": "vitest run",
     "deploy": "pnpm run build && wrangler deploy",
-    "cf-typegen": "wrangler types"
+    "cf-typegen": "wrangler types",
+    "postinstall": "npm run cf-typegen"
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.13.8",
