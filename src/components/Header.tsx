@@ -36,6 +36,8 @@ export default function Header() {
               src="/tanstack-word-logo-white.svg"
               alt="TanStack Logo"
               className="h-10"
+              width={100}
+              height={40}
             />
           </Link>
         </h1>
